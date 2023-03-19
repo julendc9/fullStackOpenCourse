@@ -30,17 +30,17 @@ const App = () => {
     good: {
       name: 'good',
       value: good,
-      handler: () => handleGoodClick()
+      handler: handleGoodClick
     },
     neutral: {
       name: 'neutral',
       value: neutral,
-      handler: () => handleNeutralClick()
+      handler: handleNeutralClick
     },
     bad: {
       name: 'bad',
       value: bad,
-      handler: () => handleBadClick()
+      handler: handleBadClick
     }
   }
 
